@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -356,6 +358,30 @@ footer {
         border-bottom: solid 2px #74b44a;
     }
 
+}
+
+#contact-section > .projects-content > article + article {
+    margin-left: 20%;
+}
+
+.contact {
+    font-family: Helvetica, sans-serif;
+    color: #29326a;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contact-section > .projects-content > article > p {
+    margin: 0;
+}
+
+.contact-item > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-item > p > a:hover {
+    color: rgb(181, 229, 247);
 }
 
 
